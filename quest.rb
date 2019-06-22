@@ -16,7 +16,7 @@ require 'json'
     :age=> 19,
     :full_name=>"Valentine Kopotchel",
     :education=>"FAMCS, end of second year, Informatics"
-}.to_hash.to_json
+}.to_json
 
 uri = URI.parse("https://rubizza.com/register")
 https = Net::HTTP.new(uri.host,uri.port)
